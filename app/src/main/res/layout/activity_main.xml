@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/etd1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter_UserID"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       ></EditText>
+   <EditText
+       android:id="@+id/etd2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Name"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       ></EditText>
+   <EditText
+       android:id="@+id/etd3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter EmailID"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       ></EditText>
+   <EditText
+       android:id="@+id/etd4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter_UserID for Delete Data"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       ></EditText>
+   <Button
+       android:id="@+id/btn_delete"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="DELETE"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"></Button>
+   <Button
+       android:id="@+id/btn_update"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="UPDATE"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"></Button>
+   <Button
+       android:id="@+id/btn_save"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="SAVE"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"></Button>
+   <Button
+       android:id="@+id/btn_read"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="READ"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"></Button>
+
+
+</LinearLayout>
